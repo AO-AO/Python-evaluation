@@ -15,3 +15,7 @@ def match_bracket(a_string):
     else:
         print("NOT OK")
         return 0
+
+
+string = raw_input("Please input the string: ")
+match_bracket(string)
