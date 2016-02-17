@@ -8,7 +8,6 @@ def add_linenum(path):
     source_file.close()
     des_file.close()
 
-
 def getpath():
     source_path = raw_input("Please input the path of the source_file: ")
     des_path = raw_input("Please input the path of the des_file: ")
