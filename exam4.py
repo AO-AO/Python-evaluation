@@ -4,7 +4,7 @@ def add_linenum(path):
     linenum = 0  #Count the line
     for line in source_file:
         linenum = linenum + 1
-        des_file.write(str(linenum) + "  " + line)  #Add the count in the head of the lines
+        des_file.write(str(linenum) + "  " + line)  #Add the count with 2 blanks in the head of the lines
     source_file.close()
     des_file.close()
 
