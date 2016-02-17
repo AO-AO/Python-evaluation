@@ -6,5 +6,6 @@ def char_freq(a_string):
         index = a_set.index(a_list[i])
         a_count[index] = a_count[index] + 1
     result = dict(zip(a_set, a_count))
-    print(result)
     return result
+
+print char_freq("abcbacbac")
